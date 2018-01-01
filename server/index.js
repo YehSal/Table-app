@@ -2,4 +2,6 @@ const express = require('express');
 
 const app = express();
 
-app.listen(3000);
+// Dynamic port specification for Heroku depolyment
+const PORT = process.env.PORT || 3000;
+app.listen(PORT);
