@@ -2,7 +2,7 @@
   "name": "table-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "engines": {
     "node": "9.2.0",
     "npm": "5.6.0"
